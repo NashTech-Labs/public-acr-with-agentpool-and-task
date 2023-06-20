@@ -5,6 +5,7 @@ This terraform script will help to create a public azure container registry with
 
 - clone the repository
 - cd public-acr-with-agentpool-and-task
+- make sure azure cli is installed and logged in (if not already then install and log in first)
 - create a terraform.tfvars file with the inputs for the variables
 - run the following commands
   - terraform init
